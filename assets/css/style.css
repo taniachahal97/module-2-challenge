@@ -2,16 +2,17 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 130px;
+    height: 100px;
     background-color: rgb(210, 151, 161);
 }
 
 body{
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    background-color: rgb(199, 199, 231);
+    background-color: rgb(232 232 240);
 }
 
+/* setting the h1 tags in header to invisible*/
 .header h1{
     visibility: hidden;
 }
@@ -19,20 +20,12 @@ body{
 /* positioning heading */
 .header h2{
     display: inline;
-    /*position: absolute;
-    left: 150px;
-    top: 20px;*/
     color: white;
     float: left;
 }
 
-/* positioning navigation links */
-/*.header nav{
-    position: absolute;
-    top: 20px;
-    right: 0px;
-}*/
 
+/*styling the navigation links in the header*/
 .header nav ul{
 
     list-style-type: none;
@@ -53,13 +46,11 @@ a{
 
 }
 
-
+/* setting size of header image*/
 .portfolio-image{
-    /*position: absolute;
-    left: 10px;*/
     height: 100px;
     width: 100px;
-    /*float: left;*/
+    
 }
 
 #portfolio-contents{
@@ -73,14 +64,17 @@ a{
     width: 20%;
 }
 
+/* setting the class as a flexbox*/
 #Work {
     display: flex;
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 170px;
+    padding: 40px;
 }
 
+/* positioning about me section on the page*/
 #About-me {
         text-align: center;
         position: relative;
@@ -89,25 +83,15 @@ a{
         margin: 20px;
         height: 200px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        /*background-color: rgb(162, 142, 142);*/
         color: #ffffff;
 }
 
 #About-me p{
+    text-align: justify;
     font-size: 18px;
     color: black;
 }
 
-/*#Contact {
-        text-align: center;
-        position: relative;
-        left: 150px;
-        padding: 50px;
-        margin: 20px;
-        height: 300px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: rgb(162, 142, 142);
-        color: #ffffff;} */
 
 #Contact{
     display: flex;
@@ -129,6 +113,7 @@ a{
     text-align: center;
     padding: 50px;
     width: 25%;
+    color: rgb(104 91 93);
 }
  .projects{
 
@@ -159,6 +144,7 @@ a{
  #portfolio-contents h2{
     margin-left: 250px;
     text-align: center;
+    color: #507290
  }
 
 
@@ -181,7 +167,7 @@ a{
 
  #figure3{
     position: absolute;
-    top: 150px;
+    top: 130px;
     right: 30px;
     color: black;
     font-size: 30px;
@@ -255,4 +241,13 @@ footer {
         }
 }
 
+
+.projects img:hover{
+    box-shadow:  0 0 12px 10px rgb(165, 193, 109);
+
+}
+
+.projects1 img:hover{
+    box-shadow: 0 0 12px 10px rgb(165, 193, 109) ;
+}
 
