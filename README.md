@@ -16,6 +16,7 @@ Clone the module-2-challenge repository to your local machine. The module-2-chal
 Open the index.html file in VS Code and run the file in the browser to view the webpage. 
 
 ![portfolio image 1](assets/images/portfolio-image-1.png)
+![portfolio image 3](assets/images/portfolio-image-3.png)
 ![portfolio image 2](assets/images/portfolio-image-2.png)
 
 
