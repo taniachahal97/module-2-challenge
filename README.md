@@ -25,4 +25,4 @@ Open the index.html file in VS Code and run the file in the browser to view the 
 Please refer to the license in the repository
 
 ## Deployed Application link
-https://taniachahal97.github.io/module-1-challenge-1
+https://taniachahal97.github.io/module-2-challenge/
