@@ -86,13 +86,14 @@ a{
         color: #ffffff;
 }
 
+/* justifying contents in About me section*/
 #About-me p{
     text-align: justify;
     font-size: 18px;
     color: black;
 }
 
-
+/* setting class contact as a flexbox*/
 #Contact{
     display: flex;
     padding-left: 100px;
@@ -108,6 +109,7 @@ a{
 
 }
 
+/*positioning the navigation links in Contact*/
 #Contact nav ul a{
     font-size: 20px;
     text-align: center;
@@ -115,6 +117,8 @@ a{
     width: 25%;
     color: rgb(104 91 93);
 }
+
+/*positioining the projects except the first project of the candidate in class Works */
  .projects{
 
         position: relative;
@@ -125,6 +129,7 @@ a{
         flex: 0 2 400px;
  }
 
+ /*positioning the first project  in class Work*/
  .projects1{
     border-style: solid;
     border-width: 1px;
@@ -133,6 +138,7 @@ a{
     flex: 0 1 901px;
  }
 
+ /* setting the images in class Work*/
  .projects img {
     width: 100%;
  }
@@ -148,6 +154,7 @@ a{
  }
 
 
+/*setting the positions of the captions for the images*/
 
  .projects1 figcaption{
     position: absolute;
@@ -190,6 +197,7 @@ a{
     font-size: 30px;
  }
 
+ /*  setting the main div container as a flexbox*/
 main{
     display: flex;
     flex-wrap: wrap;
@@ -204,7 +212,7 @@ footer {
     color: #fff;
   }
 
-
+/* changing the font-size of the captions*/
 @media screen and (max-width: 996px){
     #figure2{
       font-size: 20px;
@@ -241,7 +249,7 @@ footer {
         }
 }
 
-
+/* adding glow effect to the images*/
 .projects img:hover{
     box-shadow:  0 0 12px 10px rgb(165, 193, 109);
 
